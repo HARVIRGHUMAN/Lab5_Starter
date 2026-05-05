@@ -26,7 +26,7 @@ test('isPhoneNumber: (123)4567890 is false', () => {
 
 // isEmail tests
 test('isEmail: ghuman@ucsd.edu is true', () => {
-    expect(isEmail('ghuman@ucsd.eduu')).toBe(true);
+    expect(isEmail('ghuman@ucsd.edu')).toBe(true);
 });
 test('isEmail: test_user@me.com is true', () => {
     expect(isEmail('test_user@me.com')).toBe(true);
