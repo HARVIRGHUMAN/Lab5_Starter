@@ -11,7 +11,7 @@ import {
 // TODO - Part 2
 
 // isPhoneNumber tests
-test('isPhoneNumber: (123) 456-7890 is true)', () => {
+test('isPhoneNumber: (123456-7890 is true)', () => {
     expect(isPhoneNumber('(123) 456-7890')).toBe(true);
 });
 test('isPhoneNumber: 123-456-7890 is true)', () => {
