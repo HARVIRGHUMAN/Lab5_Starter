@@ -11,7 +11,7 @@ import {
 // TODO - Part 2
 
 // isPhoneNumber tests
-test('isPhoneNumber: (123456-7890 is true)', () => {
+test('isPhoneNumber: (123) 456-7890 is true)', () => {
     expect(isPhoneNumber('(123) 456-7890')).toBe(true);
 });
 test('isPhoneNumber: 123-456-7890 is true)', () => {
@@ -26,7 +26,7 @@ test('isPhoneNumber: (123)4567890 is false', () => {
 
 // isEmail tests
 test('isEmail: ghuman@ucsd.edu is true', () => {
-    expect(isEmail('ghuman@ucsd.edu')).toBe(true);
+    expect(isEmail('ghuman@ucsd.eduu')).toBe(true);
 });
 test('isEmail: test_user@me.com is true', () => {
     expect(isEmail('test_user@me.com')).toBe(true);
